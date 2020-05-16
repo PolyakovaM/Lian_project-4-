@@ -1,0 +1,189 @@
+.header_lian_agency {
+   background-image: url('../img/base.png');
+}
+
+.header_lian_agency_wrapper-about {
+   width: 35%;
+   margin: 120px auto 120px 230px;
+}
+
+.header_lian_agency_wrapper-about h1 {
+   text-align: center;
+}
+
+.about_the_agency {
+   background-color: #fafafa;
+   overflow: auto;
+}
+
+.about_our_story_wrapper {
+   width: 70%;
+   margin: 70px auto 90px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.about_our_story_img {
+   width: 46%;
+}
+
+.about_our_story_info {
+   width: 48%;
+}
+
+.about_our_story_info h2, .about_our_story_info p {
+   margin-bottom: 25px;
+}
+
+.about_skills {
+   display: flex;
+   justify-content: center;
+}
+
+.about_skills_wrapper {
+   width: 100%;
+   margin-bottom: 20px;
+}
+
+.skill_article {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 15px;
+}
+
+.section_skills_container {
+   height: 10px;
+   background-color: #ebebeb;
+   margin-bottom: 20px;
+   display: flex;
+   align-items: center;
+}
+
+.skills {
+   height: 2px;
+   background-color: #a1a1a1;
+   position: relative;
+   left: 1%;
+}
+
+.tooltip_point90,
+.tooltip_point95,
+.tooltip_point50,
+.tooltip_point85 {
+   width: 45px;
+	height: 23px;
+   background-color: #041608;
+   position: relative;
+}
+
+.tooltip_point90 {
+   right: calc(11% - 45px + 12px);
+}
+
+.tooltip_point95 {
+   right: calc(6% - 45px + 12px);
+}
+
+.tooltip_point50 {
+   right: calc(51% - 45px + 12px);
+}
+
+.tooltip_point85 {
+   right: calc(16% - 45px + 12px);
+}
+
+.tooltiptext {
+   position: absolute;
+   color: #fff;
+   font-size: 12px;
+   font-weight: 400;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.tooltip_point90:after, 
+.tooltip_point95:after, 
+.tooltip_point50:after,
+.tooltip_point85:after {
+   content: " ";
+   position: absolute;
+   top: 100%;
+   left: 0;
+   border-width: 4px;
+   border-style: solid;
+   border-color: #041608 transparent transparent #041608;
+}
+
+.point {
+   width: 12px;
+	height: 12px;
+	background-color: white;
+   border: 4px solid black;
+   border-radius: 50%;
+   position: absolute;
+   right: 0;
+   transform: translateY(-50%);
+}
+
+.photoshop {
+   width: calc(89% - 12px);
+ } 
+
+.branding {
+   width: calc(94% - 12px);
+} 
+
+.photography {
+   width: calc(49% - 12px);
+ } 
+
+.design {
+   width: calc(84% - 12px);
+}
+
+.skill-name {
+   color: #2f302f;
+	font-size: 16px;
+   font-weight: 700;
+}
+
+.about_the_team_members {
+   display: flex;
+   justify-content: space-between;
+   width: 70%;
+   margin: 65px auto 75px;
+}
+
+.about_the_team_item {
+   width: 30%;
+   background-color: white;
+   overflow: auto;
+}
+
+.about_the_team_title {
+   text-align: center;
+   margin: 0 auto;
+   width: 37%;
+}
+
+.about_the_team_title h2 {
+   font-size: 30px;
+   margin-bottom: 40px;
+}
+
+.team_member_about {
+   padding: 20px 35px;
+}
+
+.team_member_about h2 {
+   color: #041608;
+   font-size: 24px;
+   margin-bottom: 5px;
+}
+
+.team_member_about p {
+   color: #9c9c9c;
+   margin-top: 15px;
+}
+

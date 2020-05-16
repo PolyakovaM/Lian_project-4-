@@ -1,0 +1,272 @@
+img {
+   display: block;
+}
+
+.blog_container {
+   background-color: #fafafa;
+   padding-top: 70px;
+   padding-bottom: 100px;
+}
+
+.blog_container_wrapper {
+   display: flex;
+   justify-content: space-between;
+   width: 70%;
+   margin: 0 auto;
+}
+
+.blog_post_item {
+   width: 31%;
+}
+
+.wordpress_blog {
+   padding: 10px 15px;
+   background-color: black;
+   color: white;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 18px;
+   text-transform: uppercase;
+   width: 45%;
+   border-radius: 2px;
+   text-align: center;
+}
+
+.blog_post_title {
+   color: #333;
+	font-size: 20px;
+   font-weight: 700;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   line-height: 30px;
+}
+
+.post_sign_change {
+   display: flex;
+   justify-content: space-between;
+}
+
+.post_sign i {
+   color: #ccc;
+	font-size: 14px;
+}
+
+.post_sign_name {
+   color: #9a9a9a;
+   font-weight: 700;
+   font-size: 13px;
+}
+
+.post_column p {
+   margin-top: 20px;
+   margin-bottom: 30px;
+}
+
+.post_column1_item1 {
+   padding: 30px 35px;
+}
+
+.share_post_sign {
+   margin-right: 20px;
+}
+
+.post_column {
+   margin-bottom: 30px;
+   background-color: white;
+}
+
+.post_column:last-child {
+   margin-bottom: 0;
+}
+
+.post_column_item_info {
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-bottom: 30px;
+}
+
+.post_column1_item3 {
+   position: relative;
+}
+
+.post_column1_item3 img {
+   display: block;
+}
+
+.overlay_post_column1_item3 {
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   background-color: rgba(0, 0, 0, .7);
+   position: absolute;
+   opacity: 0;
+   padding: 40px;
+   transition: 1s;
+}
+
+.post_column1_item3 p {
+   color: #e5e5e5;
+}
+
+.post_column1_item3 .blog_post_title {
+   color: white;
+}
+
+.overlay_post_column1_item3_text .post_sign_name {
+   color: #ccc;
+}
+
+.overlay_post_column1_item3:hover {
+   opacity: 1;
+   transition: 1s;
+}
+
+.post_column2_item2 {
+   position: relative;
+   margin-bottom: 30px;
+}
+
+.video_post_column2_item2 {
+   width: 60px;
+   height: 60px;
+   background-color: #666667;
+   border-radius: 50%;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   cursor: pointer;
+}
+
+.post_column_play {
+   border-style: solid;
+   border-width: 8px 0 8px 16px;
+   border-color: transparent transparent transparent #e7e7e7;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.blog_container .portfolio_button {
+   position: relative;
+   right: 10%;
+   margin-top: 60px;
+}
+
+.blog_container_sidebar h2 {
+   text-align: center;
+}
+
+.sidebar_search {
+   position: relative;
+}
+
+input[type="search"] {
+   width: 100%;
+   font-size: 16px;
+   padding: 20px 28px;
+}
+
+input[type="image"] {
+   position: absolute;
+   bottom: 5%;
+   right: 0%;
+}
+
+.blog_container_sidebar_bg {
+   padding: 14px 80px;
+   background-color: #ebebeb;
+   position: relative;;
+}
+
+.blog_container_sidebar_bg::after {
+   content: " ";
+   position: absolute;
+   top: 100%;
+   left: 50%;
+   transform: translateX(-50%);
+   border-width: 8px;
+   border-style: solid;
+   border-color: #ebebeb transparent transparent transparent
+}
+
+.recent_posts_item {
+   padding: 25px;
+}
+
+.recent_posts_item_wrapper {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 20px;
+}
+
+.recent_posts_item_wrapper:last-child {
+   margin-bottom: 0;
+}
+
+.recent_posts_img img {
+   margin-right: 18px;
+   width: auto;
+}
+
+.recent_posts_info {
+   color: #3d3d3d;
+	font-size: 16px;
+	font-weight: 500;
+   line-height: 20px;
+   margin-bottom: 12px;
+}
+
+.recent_posts_date {
+   color: #777;
+	font-size: 13px;
+	font-weight: 300;
+}
+
+.popular_tags_frame {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   padding-left: 20px;
+}
+
+.popular_tags_line {
+   display: flex;
+   margin-bottom: 10px;
+}
+
+.popular_tags_item {
+   color: #9c9c9c;
+	font-size: 13px;
+   font-weight: 400;
+   border: 1px solid #eee;
+   border-radius: 2px;
+   padding: 8px 16px;
+   margin-right: 6px;
+   cursor: pointer;
+}
+
+.popular_tags_item:hover {
+   color: white;
+   background-color: black;
+   border: 1px solid black;
+   transition: .7s;
+}
+
+.instagram_post_frame {
+   padding-top: 30px;
+   padding-bottom: 20px;
+   padding-left: 25px;
+   padding-right: 22px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.insta_img_bloc {
+   width: 32%;
+}
+
+.insta_img_bloc img {
+   margin-bottom: 5px;
+}

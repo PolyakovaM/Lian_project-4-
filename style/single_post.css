@@ -1,0 +1,114 @@
+.header_lian_agency {
+   background-image: url('../img/single_post.png');
+}
+
+.single_post {
+   background-color: #fafafa;
+   overflow: auto;
+}
+
+.single_post_wrapper {
+   width: 60%;
+   margin: 70px auto 80px;
+}
+
+.single_post_wrapper h2 {
+   text-align: center;
+   font-size: 30px;
+}
+
+.post_info {
+   display: flex;
+   justify-content: space-between;
+   width: 45%;
+   margin: 25px auto;
+   color: #777;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.single_post_img {
+   margin-bottom: 40px;
+}
+
+.single_post_wrapper p {
+   width: 85%;
+   margin: 0 auto 50px;
+}
+
+.single_post_article {
+   width: 85%;
+   margin: 40px auto 20px;
+}
+
+blockquote {
+   padding: 20px 35px 30px;
+	color: #777;
+	font-family: PTSerif;
+	font-size: 18px;
+	font-weight: 700;
+	font-style: italic;
+   line-height: 30px;
+   border: 1px solid #e1e1e1;
+   border-left-width: 4px;
+}
+
+.single_post_article {
+   color: #333;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 36px;
+	text-transform: uppercase;
+}
+
+.single_post_wrapper .leave_comment {
+   font-size: 20px;
+   margin-bottom: 15px;
+}
+
+.single_post_form {
+   background-color: white;
+   overflow: auto;
+}
+
+.single_post_form_wrapper {
+   width: 85%;
+   margin: 35px auto;
+}
+
+.single_post_form input, textarea {
+   border: 1px solid #e1e1e1;
+	border-radius: 2px;
+}
+
+.single_post_form input {
+   width: 100%;
+}
+
+.user_info_input {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+
+.user_info_form {
+   width: 30%;
+}
+
+.single_post_form textarea {
+   width: 100%;
+   margin-bottom: 25px;
+   margin-top: 20px;
+   resize: none;
+}
+
+.single_post_form button {
+   color: white;
+	font-size: 14px;
+   padding: 15px 40px;
+   background-color: black;
+   border-radius: 2px;
+   position: relative;
+   left: 50%;
+   transform: translate(-50%, 0);
+}

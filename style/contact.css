@@ -1,0 +1,109 @@
+.header_lian_agency {
+   background-image: url('../img/base.png');
+}
+
+.header_lian_agency_wrapper-about {
+   width: 26%;
+}
+
+.contact_office_info {
+   background-color: #fafafa;
+   overflow: auto;
+}
+
+.contact_office_info_wrapper {
+   display: flex;
+   justify-content: space-between;
+   width: 70%;
+   margin: 80px auto;
+}
+
+.contact_office_details {
+   width: 30%;
+}
+
+.contact_office_details h2 {
+   font-size: 30px;
+}
+
+.office_info_title {
+   color: #2f302f;
+   font-size: 16px;
+   font-weight: 300;
+   position: relative;
+   margin-top: 15px;
+   padding-bottom: 20px;
+   margin-bottom: 40px;
+}
+
+.office_info_title:after {
+   content: "";
+   width: 60px;
+	height: 1px;
+   background-color: black;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+}
+
+.text_thick {
+   font-size: 15px;
+   color: #222;
+   font-weight: 700;
+   margin-right: 5px;
+}
+
+.text_number {
+   font-size: 15px;
+   color: #555;
+   font-weight: 700;
+   line-height: 24px;
+}
+
+.info_text {
+   font-size: 15px;
+   color: #777;
+	font-weight: 400;
+}
+
+.contact_us_address {
+   margin-top: 35px;
+   margin-bottom: 35px;
+}
+
+.single_post_form {
+   width: 66%;
+   background-color: #fafafa;
+}
+
+.user_info_form {
+   width: 47%;
+}
+
+.contact_us_form_wrapper button {
+   position: relative;
+   left: 0;
+   transform: none;
+   padding: 15px 56px;
+}
+
+.about_the_team {
+  background-color: #fafafa;
+}
+
+.about_the_team_item {
+   background-color: #fafafa;
+   padding-bottom: 60px;
+}
+
+.about_the_team {
+   padding-top: 70px;
+}
+
+.our_values_about {
+   padding-top: 25px;
+}
+
+.our_values_about h2 {
+   margin-bottom: 35px;
+}
