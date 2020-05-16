@@ -18,7 +18,6 @@ ul, ol {
 
 ul li {
    display: inline-block;
-   margin-right: 45px;
 }
 
 ul li:last-child {
@@ -117,6 +116,14 @@ p {
 	font-weight: 400;
 }
 
+.header_list ul li {
+   margin-right: 45px;
+}
+
+.header_list ul li:last-child {
+   margin-right: 0;
+}
+
 .header_lian_agency {
    background-image: url('../img/shutterstock_353200073.png');
    overflow: auto;
@@ -189,8 +196,6 @@ p {
    width: 1px;
    background: #666;
    transform: rotate(20deg);
-   position: relative;
-   right: 2%;
 }
 
 .portfolio_images {
