@@ -7,7 +7,7 @@
 }
 
 body {
-   min-width: 1600px;
+ 
    margin: 0 auto;
    font-family: Roboto;
 }
@@ -71,6 +71,10 @@ a, i {
 a:hover, i:hover {
    color: black;
    transition: 1s;
+}
+
+.burger-menu {
+	display: none;
 }
 
 .header_menu {
