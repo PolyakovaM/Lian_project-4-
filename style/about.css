@@ -155,6 +155,10 @@
    margin: 65px auto 75px;
 }
 
+.about_the_team_members  img{
+   display: block;
+}
+
 .about_the_team_item {
    width: 30%;
    background-color: white;
