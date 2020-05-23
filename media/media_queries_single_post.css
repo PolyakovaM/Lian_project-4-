@@ -1,0 +1,37 @@
+@media screen and (max-width: 1024px) {
+	input::placeholder, textarea::placeholder {
+		text-align: left;
+	}
+
+	.single_post_wrapper {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 479px) {
+	.single_post_wrapper {
+		width: 100%;
+	}
+	
+	.single_post_wrapper h2 {
+		font-size: 16px;
+		line-height: 30px;
+  }
+
+  	.post_info {
+		width: 90%;
+	}
+
+	.user_info_input {
+		display: block;
+  }
+
+  .user_info_form {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
