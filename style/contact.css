@@ -3,7 +3,7 @@
 }
 
 .header_lian_agency_wrapper-about {
-   width: 26%;
+   width: 40%;
 }
 
 .contact_office_info {
@@ -85,6 +85,10 @@
    left: 0;
    transform: none;
    padding: 15px 56px;
+}
+
+.contact_map img {
+   display: block;
 }
 
 .about_the_team {

@@ -5,11 +5,11 @@
 
 	.single_post_wrapper {
 		width: 90%;
+		margin: 30px auto;
 	}
 }
 
 @media screen and (max-width: 767px) {
-
 }
 
 @media screen and (max-width: 479px) {
@@ -18,17 +18,23 @@
 	}
 	
 	.single_post_wrapper h2 {
-		font-size: 16px;
+		font-size: 14px;
 		line-height: 30px;
-  }
+		letter-spacing: 1px;
+  	}
 
   	.post_info {
 		width: 90%;
+		display: block;
+	}
+
+	.post_info div {
+		margin-bottom: 10px;
 	}
 
 	.user_info_input {
 		display: block;
-  }
+  	}
 
   .user_info_form {
 		width: 100%;

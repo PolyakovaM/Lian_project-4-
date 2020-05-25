@@ -7,7 +7,6 @@
 }
 
 body {
-   max-width: 1600px;
    margin: auto;
    font-family: Roboto;
 }
@@ -254,7 +253,7 @@ p {
 }
 
 .footer_society_wrapper i {
-font-size: 18px;
+   font-size: 18px;
 }
 
 footer h2 {

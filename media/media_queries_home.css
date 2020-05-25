@@ -1,5 +1,4 @@
 @media screen and (max-width: 1024px) {
-	
 	* {
 		text-align: center;
 	}
@@ -10,7 +9,7 @@
 
 	.footer_society_wrapper {
 		width: 60%;
-  }
+  	}
 
 	h1 {
 		font-size: 30px;
@@ -139,7 +138,7 @@
 
 	.header_lian_agency_wrapper {
 		margin: 100px auto 50px;
-  }
+  	}
 
   .point_slider {
 		transform: scale(.8);
@@ -147,7 +146,7 @@
 
 	.portfolio_nav ul {
 		width: 90%;
-  }
+  	}
 
   .slash {
 		height: 15px;
@@ -162,7 +161,7 @@
 	.header_menu {
 		width: 90%;
 		margin: 20px auto;
-  }
+  	}
 
   .burger-menu__button {
 		width: 40px;
@@ -192,11 +191,11 @@
 
 	.header_lian_agency_wrapper {
 		width: 70%;
-  }
+  	}
 
   h2 {
 		font-size: 12px;
-  }
+  	}
 
   .point_slider {
 		transform: scale(.6);
@@ -204,7 +203,7 @@
 
 	button {
 		font-size: 10px;
-  }
+  	}
 
   footer h2 {
 		font-size: 10px;
@@ -223,5 +222,14 @@
 
 	.footer_logo {
 		width: 25%;
-  }
+  	}
+
+  .portfolio_images {
+		display: block;
+	}
+
+  .portfolio_images_wrapper {
+		width: 80%;
+		margin: auto;
+	}
 }
