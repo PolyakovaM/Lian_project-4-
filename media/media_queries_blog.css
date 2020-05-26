@@ -1,0 +1,71 @@
+@media screen and (max-width: 1024px) {
+	.blog_container_wrapper {
+		width: 70%;
+  }
+
+	.blog_container_wrapper {
+		display: block;
+	}
+
+	.blog_post_item {
+		width: 70%;
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+
+  .popular_tags_line {
+		display: block;
+	}
+
+  .popular_tags_item {
+		margin-right: 16px;
+		margin-bottom: 10px;
+	}
+
+	.blog_container_sidebar_bg {
+		padding: 10px;
+  	}
+
+  .wordpress_blog {
+		width: 80%;
+	}
+
+	.blog_container {
+		padding-top: 30px;
+  	}
+}
+
+@media screen and (min-width: 767px) {
+	.blog_container .portfolio_button {
+		position: inherit;
+		margin-top: 60px;
+  	}
+
+  	.recent_posts_img {
+	  	width: 40%;
+  	}
+
+	.recent_posts_img img {
+		width: 70%;
+	}
+
+	.recent_posts_text {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.blog_container_wrapper {
+		display: block;
+  }
+
+  .blog_post_item {
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+
+	.blog_container_wrapper {
+		width: 95%;
+  }
+}
