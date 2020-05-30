@@ -1,7 +1,7 @@
 @media screen and (max-width: 1024px) {
 	.blog_container_wrapper {
 		width: 70%;
-  }
+  	}
 
 	.blog_container_wrapper {
 		display: block;
@@ -13,11 +13,11 @@
 		margin-top: 30px;
 	}
 
-  .popular_tags_line {
+  	.popular_tags_line {
 		display: block;
 	}
 
-  .popular_tags_item {
+  	.popular_tags_item {
 		margin-right: 16px;
 		margin-bottom: 10px;
 	}
@@ -26,7 +26,7 @@
 		padding: 10px;
   	}
 
-  .wordpress_blog {
+  	.wordpress_blog {
 		width: 80%;
 	}
 
@@ -59,7 +59,7 @@
 		display: block;
   }
 
-  .blog_post_item {
+  	.blog_post_item {
 		width: 90%;
 		margin: 0 auto;
 		margin-top: 30px;

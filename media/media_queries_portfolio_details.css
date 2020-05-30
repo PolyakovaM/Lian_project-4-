@@ -11,7 +11,7 @@
 		width: 100%;
   	}
 
-  .single_project_details_role {
+  	.single_project_details_role {
 		margin-bottom: 10px;
 	}
 
@@ -19,18 +19,18 @@
 		margin-top: 20px;
   	}
 
-  .related_works_container {
+  	.related_works_container {
 		margin-top: 50px;
 		width: 95%;
 	}
 
-  .related_works_title {
+  	.related_works_title {
 		width: 90%;
 	}
 }
 
 @media screen and (max-width: 767px) {
-  .single_project-order {
+  	.single_project-order {
 		width: 90%;
 	}
 }
@@ -41,7 +41,7 @@
 		margin-top: 10px;
   	}
 
-  .related_works_container_img {
+  	.related_works_container_img {
 		display: block;
 		margin-top: 0;
 	}
@@ -55,7 +55,7 @@
 		width: 90%;
 	}
 	
-  .single_project_details_info h2, .related_works_title h2 {
+  	.single_project_details_info h2, .related_works_title h2 {
 		font-size: 22px;
 	}
 
